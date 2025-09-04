@@ -1,0 +1,30 @@
+.descriptionBox{
+    margin:120px 170px;
+}
+.descriptionBox-navegator{
+    display: flex;
+}
+.descriptionBox-navegator-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:170px;
+    height:65px;
+    border:1px solid #dedede;
+    font-size: 16px;
+    font-weight: 600;
+    
+    
+}
+.descriptionBox-navegator-box.fad{
+    background: #fbfbfb;
+    color:#555;
+}
+.description-box-description{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    padding: 40px;
+    border: 1px solid #d0d0d0;
+    padding-bottom: 70px;
+}

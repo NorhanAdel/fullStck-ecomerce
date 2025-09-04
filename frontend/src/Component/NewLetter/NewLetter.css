@@ -1,0 +1,50 @@
+.newLetter{
+    width:60%;
+    height:40vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding:0 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    gap:30px;
+}
+.newLetter h1{
+    color:#454545;
+    font-size:40px;
+    font-weight:400;
+}
+.newLetter p{
+color: #454545;
+    font-size: 22px;
+}
+.newLetter div{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#fff;
+    width:730px;
+    height:50px;
+    border-radius: 75px;
+    border:1px solid #e3e3;
+}
+.newLetter input{
+    width:500px;
+    margin-left:30px;
+    border:none;
+    outline:none;
+    color:#616161;
+    font-size:16px;
+    cursor:pointer;
+}
+.newLetter div button{
+    width:200px;
+    height:50px;
+    border-radius: 75px;
+    background:#000;
+    color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+}
